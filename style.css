@@ -13,15 +13,17 @@ body {
 
 .container {
   background-color: #fafafa;
+  transform-origin: top left;
+  transition: trnsorm 0.5s linera;
 }
 
 .container h1 {
   font-family: "Otomanopee One", sans-serif;
 }
 
-.korea-img {
-  width: 25vh;
-  height: 25vh;
+.korea-img img {
+  width: 40vh;
+  height: 50vh;
 }
 
 .container.show-nav {
