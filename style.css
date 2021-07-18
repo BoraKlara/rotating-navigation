@@ -15,6 +15,9 @@ body {
   background-color: #fafafa;
   transform-origin: top left;
   transition: trnsorm 0.5s linera;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
 }
 
 .container h1 {
@@ -28,4 +31,17 @@ body {
 
 .container.show-nav {
   transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: #ccc;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
