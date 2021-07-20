@@ -111,7 +111,7 @@ nav ul li + li + li {
   transform: translateX(-200%);
 }
 
-nav ul li .content {
+.content {
   max-width: 1000px;
   margin: 50px auto;
 }
